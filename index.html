@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora legal</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="meio">
+            <div class="tela">
+                <p id="result">0</p>
+            </div>
+            <div class="a1">
+                 <button id="clear" onclick="clean()">C</button>
+                <button id="back" onclick="backspace()"><</button>
+                <button id="division" onclick="insert('/')">
+                    &divide;
+                </button>
+                <button id="multiplication" onclick="insert('*')">x</button>
+            </div>
+            <div class="a1">
+                <button id="seven" onclick="insert('7')">7</button>
+                 <button id="eight" onclick="insert('8')">8</button>
+                <button id="nine" onclick="insert('9')">9</button>
+                <button id="subtraction" onclick="insert('-')">-</button>
+            </div>
+            <div class="a1">
+                <button id="four" onclick="insert('4')">4</button>
+                <button id="five" onclick="insert('5')">5</button>
+                <button id="six" onclick="insert('6')">6</button>
+                <button id="addition" onclick="insert('+')">+</button>
+            </div>
+            <div class="pai">
+                <div class="filho1">
+                    <div class="a1">
+                        <button id="three" onclick="insert('3')">3</button>
+                        <button id="two" onclick="insert('2')">2</button>
+                        <button id="one" onclick="insert('1')">1</button>
+                    </div>
+                    <div class="a1">
+                        <button id="zero" onclick="insert('0')">0</button>
+                        <button id="point" onclick="insert('.')">.</button>
+                    </div>
+                </div>
+                <div class="filho2">
+                    <button class="equality" id="equality" onclick="calcular()">=</button>
+                </div>
+            </div>    
+        </div>
+        <span><b>Calculator Jk</b></span>    
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
