@@ -52,6 +52,7 @@ button{
     box-shadow: 0 5px #c0c2c3;
     cursor: pointer;
     transition: 0.2s;
+    outline: none;
 }
 button:active{
     box-shadow: 0 0 0 0 #c0c2c3;
@@ -83,5 +84,4 @@ span{
     font-size: 25px;
     position: relative;
     top: 10px;
-    
 }
